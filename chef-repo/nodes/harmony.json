@@ -1,0 +1,14 @@
+{
+  "httpd" :{
+    "port" : 8000
+  },
+  "owner" :{
+    "name" : "Arata Tanaka"
+  },
+  "run_list": [
+    "recipe[hello]"
+  ],
+  "automatic": {
+    "ipaddress": "harmony"
+  }
+}
